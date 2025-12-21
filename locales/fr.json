@@ -1,0 +1,31 @@
+{
+  "common": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contacter"
+  },
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos",
+    "contact": "Contacter"
+  },
+  "home": {
+    "welcome": "Bienvenue dans mon portfolio",
+    "subtitle": "Développeur full-stack",
+    "cta": "Voir mon travail"
+  },
+  "projects": {
+    "title": "Projets",
+    "viewOnGithub": "Voir sur GitHub"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "bio": "..."
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "email": "Email"
+  }
+}
