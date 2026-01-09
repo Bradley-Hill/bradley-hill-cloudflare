@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import { I18nProvider } from "@/i18n/i18nProvider";
 
 export const metadata: Metadata = {
   title: "Bradley Hill",
@@ -13,7 +13,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <I18nProvider>
+          {children}
+        </I18nProvider>
+      </body>
     </html>
   );
 }
