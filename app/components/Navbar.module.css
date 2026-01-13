@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarList {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #555;
+}
+
+.navLink:active {
+  background-color: #444;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}

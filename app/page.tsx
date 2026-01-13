@@ -11,10 +11,6 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
-      <header className={styles.header}>
-        <h1>{title}</h1>
-        <LanguageSwitcher />
-      </header>
       <main className={styles.content}>
         <p>{welcomeText}</p>
       </main>
