@@ -22,10 +22,13 @@
   },
   "about": {
     "title": "About me",
-    "bio": "..."
+    "bio1": "I have travelled the world, I have a bachelors in Philosophy (my dissertation was on the ethical implications of Artificial Intelligence, back in 2008) and am now living in France. During the pandemic (the real one, not the board game) I began my journey of switching careers, first with some self study, then with a bootcamp and finally finding a school in France with a placement program for my first professional role as a developer.",
+    "bio2": "I am early on in my new career and am enjoying learning as much about being a developer as possible, currently focusing on Web Development (React and Next.js currently, but dabbling with Vue in solidarity with my adoptive home country) but also learning about lower level programming languages (C# and .Net at the moment) as well as more esoteric knowledge (want to improve my Bash scripting skills, use my Raspberry Pi for something useful at home) looking for work and continuing to learn every day, dont hesitate to have a look at my projects!"
   },
   "contact": {
     "title": "Get in touch",
-    "email": "Email@email.com"
+    "email": "contact@bradley-hill.com",
+    "github": "https://github.com/Bradley-Hill",
+    "linkedin": "https://www.linkedin.com/in/bradley-michael-hill/"
   }
 }

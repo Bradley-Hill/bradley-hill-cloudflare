@@ -1,0 +1,46 @@
+.contactContainer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contactTitle {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items:center;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #333;
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.contactLink:hover {
+  background-color: #f0f0f0;
+}
+
+.contactLink svg {
+  font-size: 1.5rem;
+  color: #333;
+}

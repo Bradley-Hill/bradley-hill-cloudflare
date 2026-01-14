@@ -22,10 +22,13 @@
   },
   "about": {
     "title": "À propos de moi",
-    "bio": "..."
+    "bio1": "J’ai voyagé un peu partout dans le monde, j’ai une licence en philosophie (mon mémoire portait sur les implications éthiques de l’intelligence artificielle, en 2008) et je vis maintenant en France. Pendant la pandémie (la vraie, pas le jeu de société), j’ai commencé ma reconversion professionnelle : d’abord en autodidacte, puis via un bootcamp, avant de trouver une école en France avec un programme d’alternance qui m’a permis de décrocher mon premier poste pro en tant que développeur.",
+    "bio2": "Je suis encore au début de cette nouvelle carrière et je prends beaucoup de plaisir à apprendre tout ce que je peux sur le métier de développeur. En ce moment, je me concentre surtout sur le développement web (React et Next.js principalement, avec un peu de Vue par solidarité avec mon pays d’adoption), mais je m’intéresse aussi à des langages plus bas niveau (C# et .NET pour l’instant), ainsi qu’à des sujets un peu plus pointus : améliorer mes scripts Bash, faire quelque chose d’utile avec mon Raspberry Pi à la maison… Je suis à la recherche d’un poste et j’apprends tous les jours, n’hésitez pas à jeter un œil à mes projets !"
   },
   "contact": {
     "title": "Contactez-moi",
-    "email": "Email@email.com"
+    "email": "contact@bradley-hill.com",
+    "github": "https://github.com/Bradley-Hill",
+    "linkedin": "https://www.linkedin.com/in/bradley-michael-hill/"
   }
 }

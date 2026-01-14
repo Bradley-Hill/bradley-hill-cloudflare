@@ -9,7 +9,8 @@ export default function AboutPage() {
   return (
     <div>
       <h1>{getText("about.title")}</h1>
-      <p>{getText("about.bio")}</p>
+      <p>{getText("about.bio1")}</p>
+      <p>{getText("about.bio2")}</p>
     </div>
   )
 }
