@@ -10,12 +10,11 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <h1>{getText("nav.home")}</h1>
+      <h1><a href="/" className={styles.navLink}>{getText("nav.home")}</a></h1>
       <ul className={styles.navbarList}>
         <li className={styles.navItem}>
-          {" "}
-          <a href="/" className={styles.navLink}>
-            {getText("nav.home")}
+          <a href="/projects" className={styles.navLink}>
+            {getText("nav.projects")}
           </a>
         </li>
         <li className={styles.navItem}>
