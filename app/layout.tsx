@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { I18nProvider } from "@/i18n/i18nProvider";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/nav/Navbar";
 
 export const metadata: Metadata = {
   title: "Bradley Hill",

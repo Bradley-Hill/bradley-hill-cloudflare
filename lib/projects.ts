@@ -28,7 +28,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Bradley-Hill/PlantCareAssistant",
     liveUrl: "",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
     featured: true,
   },
   {
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/TheOdinProject-ShoppingCart",
     liveUrl: "https://bradley-hill.github.io/TheOdinProject-ShoppingCart/",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
   },
   {
     id: "navigator-battleship",
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
     liveUrl: "",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
   },
   {
     id: "knights-travail",
@@ -56,16 +56,16 @@ export const projects: Project[] = [
     technologies: ["JavaScript", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/KnightsTravail-Graphs",
     liveUrl: "",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
   },
   {
     id: "binary-search-tree",
     title: "Binary Search Tree Implementation",
     description: "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript.",
     technologies: ["TypeScript"],
-    githubUrl: "https://github.com/...",
+    githubUrl: "https://github.com/Bradley-Hill/BinarySearchTree-TS",
     liveUrl: "",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
   },
   {
     id: "hashmap-implementation",
@@ -74,7 +74,7 @@ export const projects: Project[] = [
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/hashMap",
     liveUrl: "",
-    image: "/images/placeholder.jpg",
+    image: "../public/placeholder.jpg",
   },
   // ... other Odin exercises
   //   {

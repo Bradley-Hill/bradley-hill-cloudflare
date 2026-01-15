@@ -1,6 +1,6 @@
 "use client";
 import { useI18n } from "@/i18n/i18n";
-import { LanguageSwitcher } from "./components/LanguageSwitcher";
+import { LanguageSwitcher } from "./components/nav/LanguageSwitcher";
 import styles from "./page.module.css";
 
 export default function Home() {
