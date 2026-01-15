@@ -1,0 +1,52 @@
+.projectsContainer {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projectsContainer h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.featuredSection {
+  margin-bottom: 3rem;
+}
+
+.featuredSection > div {
+  max-width: 100%;
+}
+
+.gridSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+/* Responsive: Stack on smaller screens */
+@media (max-width: 768px) {
+  .gridSection {
+    grid-template-columns: 1fr;
+  }
+  
+  .projectsContainer {
+    padding: 1rem;
+  }
+  
+  .projectsContainer h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Responsive: Very small screens */
+@media (max-width: 480px) {
+  .projectsContainer {
+    padding: 0.5rem;
+  }
+  
+  .gridSection {
+    gap: 1rem;
+  }
+}

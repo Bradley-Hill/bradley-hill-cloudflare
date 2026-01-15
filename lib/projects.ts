@@ -28,7 +28,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Bradley-Hill/PlantCareAssistant",
     liveUrl: "",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
     featured: true,
   },
   {
@@ -38,43 +38,47 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/TheOdinProject-ShoppingCart",
     liveUrl: "https://bradley-hill.github.io/TheOdinProject-ShoppingCart/",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
   },
   {
     id: "navigator-battleship",
     title: "Battleship Game",
-    description: "",
+    description:
+      "This is a version of the classic board game Battleship, built using TypeScript and Test-Driven Development (TDD).",
     technologies: ["React", "TypeScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
     liveUrl: "",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
   },
   {
     id: "knights-travail",
     title: "Knights Travail Solution",
-    description: "Solution to the Knight Travail problem using OOP principles",
+    description:
+      "This project is a solution to the Knights Travail problem, implemented using Object-Oriented Programming (OOP) practices in TypeScript. The Knights Travail problem involves finding the shortest path for a knight on a chessboard from one point to another.",
     technologies: ["JavaScript", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/KnightsTravail-Graphs",
     liveUrl: "",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
   },
   {
     id: "binary-search-tree",
     title: "Binary Search Tree Implementation",
-    description: "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript.",
+    description:
+      "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript. It includes a BinarySearchTree class and a createTreeNode function for creating nodes.",
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/BinarySearchTree-TS",
     liveUrl: "",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
   },
   {
     id: "hashmap-implementation",
     title: "Hashmap Implementation",
-    description: "This project is a simple implementation of a Hashmap in TypeScript.",
+    description:
+      "This repository contains a simple implementation of a hash map data structure in TypeScript. The hash map uses separate chaining for collision resolution, with each bucket in the hash map being a linked list.",
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/hashMap",
     liveUrl: "",
-    image: "../public/placeholder.jpg",
+    image: "/placeholder.jpg",
   },
   // ... other Odin exercises
   //   {
@@ -84,6 +88,6 @@ export const projects: Project[] = [
   //     technologies: ["React", "JavaScript"],
   //     githubUrl: "https://github.com/...",
   //     liveUrl: "https://...",
-  //     image: "/images/placeholder.jpg",
+  //     image: "/placeholder.jpg",
   //   },
 ];
