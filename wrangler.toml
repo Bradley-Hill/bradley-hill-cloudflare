@@ -1,8 +1,0 @@
-name = "bradley-hill-cloudflare"
-main = "dist/index.js"
-compatibility_date = "2024-12-10"
-
-[env.production]
-routes = [
-    {pattern = "bradley-hill.com", zone_name = "bradley-hill.com"}
-]
