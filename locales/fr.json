@@ -18,7 +18,30 @@
   },
   "projects": {
     "title": "Projets",
-    "viewOnGithub": "Voir sur GitHub"
+    "rncp": {
+      "title": "Assistant de Soin des Plantes",
+      "description": "Une application web pour aider les utilisateurs à s'occuper de leurs plantes, développée dans le cadre de mon diplôme RNCP"
+    },
+    "shoppingCart": {
+      "title": "Panier d'Achat",
+      "description": "Un panier d'achat pour le commerce électronique développé dans le cadre du projet The Odin Project"
+    },
+    "navigatorBattleship": {
+      "title": "Jeu de Bataille Navale",
+      "description": "Ceci est une version du jeu de société classique Bataille Navale, développée en utilisant TypeScript et Test-Driven Development (TDD)."
+    },
+    "knightsTravail": {
+      "title": "Solution du Problème du Cavalier",
+      "description": "Ce projet est une solution au problème du Cavalier, implémentée en utilisant les principes de la programmation orientée objet (OOP) en TypeScript. Le problème du Cavalier consiste à trouver le chemin le plus court pour un cavalier sur un échiquier d'un point à un autre."
+    },
+    "binarySearchTree": {
+      "title": "Implémentation d'un Arbre de Recherche Binaire",
+      "description": "Ce projet est une simple implémentation d'un Arbre de Recherche Binaire (BST) en TypeScript. Il inclut une classe BinarySearchTree et une fonction createTreeNode pour créer des nœuds."
+    },
+    "hashmapImplementation": {
+      "title": "Implémentation d'une Table de Hachage",
+      "description": "Ce référentiel contient une simple implémentation d'une structure de données de table de hachage en TypeScript. La table de hachage utilise un chaînage séparé pour la résolution des collisions, chaque compartiment étant une liste chaînée."
+    }
   },
   "about": {
     "title": "À propos de moi",

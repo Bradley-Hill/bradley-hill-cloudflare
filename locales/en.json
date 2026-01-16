@@ -18,7 +18,30 @@
   },
   "projects": {
     "title": "Projects",
-    "viewOnGithub": "View on GitHub"
+    "rncp": {
+      "title": "Plant Care Assistant",
+      "description": "A web app to help users take care of their plants, built as part of my RNCP diploma"
+    },
+    "shoppingCart": {
+      "title": "Shopping Cart",
+      "description": "E-commerce shopping cart built as part of The Odin Project"
+    },
+    "navigatorBattleship": {
+      "title": "Battleship Game",
+      "description": "This is a version of the classic board game Battleship, built using TypeScript and Test-Driven Development (TDD)."
+    },
+    "knightsTravail": {
+      "title": "Knights Travail Solution",
+      "description": "This project is a solution to the Knights Travail problem, implemented using Object-Oriented Programming (OOP) practices in TypeScript. The Knights Travail problem involves finding the shortest path for a knight on a chessboard from one point to another."
+    },
+    "binarySearchTree": {
+      "title": "Binary Search Tree Implementation",
+      "description": "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript. It includes a BinarySearchTree class and a createTreeNode function for creating nodes."
+    },
+    "hashmapImplementation": {
+      "title": "Hashmap Implementation",
+      "description": "This repository contains a simple implementation of a hash map data structure in TypeScript. The hash map uses separate chaining for collision resolution, with each bucket in the hash map being a linked list."
+    }
   },
   "about": {
     "title": "About me",

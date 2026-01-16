@@ -1,7 +1,7 @@
 export interface Project {
   id: string;
-  title: string;
-  description: string;
+  titleKey: string;
+  descriptionKey: string;
   technologies: string[];
   githubUrl: string;
   liveUrl?: string;
@@ -12,9 +12,8 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "rncp-project",
-    title: "Plant care Assisstant",
-    description:
-      "A web app to help users take care of their plants, built as part of my RNCP diploma",
+    titleKey: "projects.rncp.title",
+    descriptionKey: "projects.rncp.description",
     technologies: [
       "React",
       "TypeScript",
@@ -33,8 +32,8 @@ export const projects: Project[] = [
   },
   {
     id: "shopping-cart",
-    title: "Shopping Cart",
-    description: "E-commerce shopping cart built as part of The Odin Project",
+    titleKey: "projects.shoppingCart.title",
+    descriptionKey: "projects.shoppingCart.description",
     technologies: ["React", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/TheOdinProject-ShoppingCart",
     liveUrl: "https://bradley-hill.github.io/TheOdinProject-ShoppingCart/",
@@ -42,9 +41,8 @@ export const projects: Project[] = [
   },
   {
     id: "navigator-battleship",
-    title: "Battleship Game",
-    description:
-      "This is a version of the classic board game Battleship, built using TypeScript and Test-Driven Development (TDD).",
+    titleKey: "projects.navigatorBattleship.title",
+    descriptionKey: "projects.navigatorBattleship.description",
     technologies: ["React", "TypeScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
     liveUrl: "",
@@ -52,9 +50,8 @@ export const projects: Project[] = [
   },
   {
     id: "knights-travail",
-    title: "Knights Travail Solution",
-    description:
-      "This project is a solution to the Knights Travail problem, implemented using Object-Oriented Programming (OOP) practices in TypeScript. The Knights Travail problem involves finding the shortest path for a knight on a chessboard from one point to another.",
+    titleKey: "projects.knightsTravail.title",
+    descriptionKey: "projects.knightsTravail.description",
     technologies: ["JavaScript", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/KnightsTravail-Graphs",
     liveUrl: "",
@@ -62,9 +59,8 @@ export const projects: Project[] = [
   },
   {
     id: "binary-search-tree",
-    title: "Binary Search Tree Implementation",
-    description:
-      "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript. It includes a BinarySearchTree class and a createTreeNode function for creating nodes.",
+    titleKey: "projects.binarySearchTree.title",
+    descriptionKey: "projects.binarySearchTree.description",
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/BinarySearchTree-TS",
     liveUrl: "",
@@ -72,9 +68,8 @@ export const projects: Project[] = [
   },
   {
     id: "hashmap-implementation",
-    title: "Hashmap Implementation",
-    description:
-      "This repository contains a simple implementation of a hash map data structure in TypeScript. The hash map uses separate chaining for collision resolution, with each bucket in the hash map being a linked list.",
+    titleKey: "projects.hashmapImplementation.title",
+    descriptionKey: "projects.hashmapImplementation.description",
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/hashMap",
     liveUrl: "",
