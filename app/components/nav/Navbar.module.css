@@ -2,16 +2,36 @@
   background-color: #333;
   color: white;
   padding: 1rem;
-  margin-bottom: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
 }
 
 .navbarList {
   list-style: none;
   display: flex;
   gap: 1rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
 }
 
 .navLink {
@@ -30,7 +50,97 @@
   background-color: #444;
 }
 
-.navItem {
-  display: flex;
-  align-items: center;
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .hamburger {
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .hamburger:hover {
+    transform: scale(1.2);
+  }
+
+  .navbarList {
+    display: none;
+    position: absolute;
+    top: calc(100%);
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    animation: slideUp 0.3s ease forwards;
+  }
+
+  .navbarList.open {
+    display: flex;
+    animation: slideDown 0.3s ease forwards;
+  }
+
+  .navItem {
+    width: 100%;
+  }
+
+  .navLink {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 0;
+    border-bottom: 1px solid #444;
+  }
+
+  .navItem:last-child .navLink {
+    border-bottom: none;
+  }
+
+  .navLink:hover {
+    background-color: #444;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.75rem;
+  }
+
+  .hamburger {
+    font-size: 1.25rem;
+    padding: 0.25rem;
+  }
+
+  .navLink {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
 }

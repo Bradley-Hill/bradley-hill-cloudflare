@@ -14,7 +14,8 @@
   "home": {
     "welcome": "Bienvenue dans mon portfolio",
     "subtitle": "Développeur full-stack",
-    "cta": "Voir mon travail"
+    "cta": "Voir mon travail",
+    "description": "Je suis développeur full-stack passionné par la création d'applications web belles et fonctionnelles. J'explore actuellement React, Next.js et les technologies web modernes tout en embrassant l'apprentissage continu."
   },
   "projects": {
     "title": "Projets",
