@@ -22,7 +22,8 @@
 .gridSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  row-gap: 4rem;
+  column-gap: 2rem;
 }
 
 /* Responsive: Stack on smaller screens */

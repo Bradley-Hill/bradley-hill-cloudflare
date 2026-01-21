@@ -27,7 +27,7 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Bradley-Hill/PlantCareAssistant",
     liveUrl: "",
-    image: "/placeholder.jpg",
+    image: "/plant-care-assistant-screenshot.png",
     featured: true,
   },
   {
@@ -37,16 +37,16 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/TheOdinProject-ShoppingCart",
     liveUrl: "https://bradley-hill.github.io/TheOdinProject-ShoppingCart/",
-    image: "/placeholder.jpg",
+    image: "/shopping-cart-screenshot.png",
   },
   {
     id: "navigator-battleship",
     titleKey: "projects.navigatorBattleship.title",
     descriptionKey: "projects.navigatorBattleship.description",
-    technologies: ["React", "TypeScript", "Jest"],
+    technologies: ["React", "TypeScript","JavaScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
     liveUrl: "",
-    image: "/placeholder.jpg",
+    image: "/navigator-battleships-screenshot.png",
   },
   {
     id: "knights-travail",
@@ -55,16 +55,16 @@ export const projects: Project[] = [
     technologies: ["JavaScript", "TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/KnightsTravail-Graphs",
     liveUrl: "",
-    image: "/placeholder.jpg",
+    image: "/knights-travail-screenshot.png",
   },
   {
     id: "binary-search-tree",
     titleKey: "projects.binarySearchTree.title",
     descriptionKey: "projects.binarySearchTree.description",
-    technologies: ["TypeScript"],
+    technologies: ["TypeScript","JavaScript"],
     githubUrl: "https://github.com/Bradley-Hill/BinarySearchTree-TS",
     liveUrl: "",
-    image: "/placeholder.jpg",
+    image: "/binary-tree-search-screenshot.png",
   },
   {
     id: "hashmap-implementation",
@@ -73,9 +73,9 @@ export const projects: Project[] = [
     technologies: ["TypeScript"],
     githubUrl: "https://github.com/Bradley-Hill/hashMap",
     liveUrl: "",
-    image: "/placeholder.jpg",
+    image: "/hash-map-screenshot.png",
   },
-  // ... other Odin exercises
+  // Example of a project template:
   //   {
   //     id: "",
   //     title: "",
