@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Playwright",
     ],
     githubUrl: "https://github.com/Bradley-Hill/PlantCareAssistant",
-    liveUrl: "",
+    liveUrl: "https://plant.bradley-hill.com/",
     image: "/plant-care-assistant-screenshot.png",
     featured: true,
   },
