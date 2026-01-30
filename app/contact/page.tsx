@@ -18,7 +18,7 @@ export default function ContactPage() {
         </li>
         <li className={styles.contactItem}>
           <a
-            href="https://github.com/..."
+            href={getText("contact.github")}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactLink}
