@@ -45,7 +45,7 @@ export const projects: Project[] = [
     descriptionKey: "projects.navigatorBattleship.description",
     technologies: ["React", "TypeScript","JavaScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
-    liveUrl: "",
+    liveUrl: "https://navigator-battleship.pages.dev/",
     image: "/navigator-battleships-screenshot.png",
   },
   {
