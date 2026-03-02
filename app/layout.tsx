@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { I18nProvider } from "@/i18n/i18nProvider";
 import Navbar from "./components/nav/Navbar";
+import Footer from "./components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "Bradley Hill",
@@ -19,6 +20,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </I18nProvider>
+        <Footer />
       </body>
     </html>
   );
