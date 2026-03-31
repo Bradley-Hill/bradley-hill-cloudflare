@@ -9,7 +9,8 @@
     "home": "Home",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "forum": "Forum"
   },
   "home": {
     "welcome": "Welcome to my portfolio",
@@ -42,6 +43,14 @@
     "hashmapImplementation": {
       "title": "Hashmap Implementation",
       "description": "This repository contains a simple implementation of a hash map data structure in TypeScript. The hash map uses separate chaining for collision resolution, with each bucket in the hash map being a linked list."
+    },
+    "forumFrontend": {
+      "title": "Forum Frontend",
+      "description": "React and TypeScript frontend for a classic discussion forum. A nostalgic return to web forums of the past."
+    },
+    "forumBackend": {
+      "title": "Forum Backend",
+      "description": "Express and PostgreSQL backend API for a classic discussion forum application."
     }
   },
   "about": {

@@ -31,6 +31,15 @@ export default function Navbar() {
           </Link>
         </li>
         <li className={styles.navItem}>
+          <a
+            href="https://forum.bradley-hill.com"
+            className={styles.navLink}
+            onClick={() => setIsOpen(false)}
+          >
+            {getText("nav.forum")}
+          </a>
+        </li>
+        <li className={styles.navItem}>
           <Link
             href="/projects"
             className={styles.navLink}

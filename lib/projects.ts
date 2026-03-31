@@ -30,6 +30,23 @@ export const projects: Project[] = [
     image: "/plant-care-assistant-screenshot.png",
     featured: true,
   },
+    {
+    id: "forum-frontend",
+    titleKey: "projects.forumFrontend.title",
+    descriptionKey: "projects.forumFrontend.description",
+    technologies: ["React", "TypeScript", "Sass"],
+    githubUrl: "https://github.com/Bradley-Hill/forum-frontend",
+    liveUrl: "https://forum.bradley-hill.com/",
+    image: "/forum-frontend-screenshot.png",
+  },
+  {
+    id: "forum-backend",
+    titleKey: "projects.forumBackend.title",
+    descriptionKey: "projects.forumBackend.description",
+    technologies: ["Express", "PostgreSQL", "Node.js"],
+    githubUrl: "https://github.com/Bradley-Hill/forum-backend",
+    image: "/forum-backend-screenshot.png",
+  },
   {
     id: "shopping-cart",
     titleKey: "projects.shoppingCart.title",
@@ -43,7 +60,7 @@ export const projects: Project[] = [
     id: "navigator-battleship",
     titleKey: "projects.navigatorBattleship.title",
     descriptionKey: "projects.navigatorBattleship.description",
-    technologies: ["React", "TypeScript","JavaScript", "Jest"],
+    technologies: ["React", "TypeScript", "JavaScript", "Jest"],
     githubUrl: "https://github.com/Bradley-Hill/navigator-battleship",
     liveUrl: "https://navigator-battleship.pages.dev/",
     image: "/navigator-battleships-screenshot.png",
@@ -61,7 +78,7 @@ export const projects: Project[] = [
     id: "binary-search-tree",
     titleKey: "projects.binarySearchTree.title",
     descriptionKey: "projects.binarySearchTree.description",
-    technologies: ["TypeScript","JavaScript"],
+    technologies: ["TypeScript", "JavaScript"],
     githubUrl: "https://github.com/Bradley-Hill/BinarySearchTree-TS",
     liveUrl: "",
     image: "/binary-tree-search-screenshot.png",
@@ -75,6 +92,7 @@ export const projects: Project[] = [
     liveUrl: "",
     image: "/hash-map-screenshot.png",
   },
+
   // Example of a project template:
   //   {
   //     id: "",

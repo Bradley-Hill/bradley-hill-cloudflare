@@ -9,7 +9,8 @@
     "home": "Accueil",
     "projects": "Projets",
     "about": "À propos",
-    "contact": "Contacter"
+    "contact": "Contacter",
+    "forum": "Forum"
   },
   "home": {
     "welcome": "Bienvenue dans mon portfolio",
@@ -42,6 +43,14 @@
     "hashmapImplementation": {
       "title": "Implémentation d'une Table de Hachage",
       "description": "Ce référentiel contient une simple implémentation d'une structure de données de table de hachage en TypeScript. La table de hachage utilise un chaînage séparé pour la résolution des collisions, chaque compartiment étant une liste chaînée."
+    },
+    "forumFrontend": {
+      "title": "Frontend du Forum",
+      "description": "Frontend React et TypeScript pour un forum de discussion classique. Un retour nostalgique aux forums web du passé."
+    },
+    "forumBackend": {
+      "title": "Backend du Forum",
+      "description": "API backend Express et PostgreSQL pour une application de forum de discussion classique."
     }
   },
   "about": {
