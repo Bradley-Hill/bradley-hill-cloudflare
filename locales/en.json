@@ -63,5 +63,13 @@
     "email": "contact@bradley-hill.com",
     "github": "https://github.com/Bradley-Hill",
     "linkedin": "https://www.linkedin.com/in/bradley-michael-hill/"
+  },
+  "skills": {
+    "title": "My Stack",
+    "inProgress": "Still learning...",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "testing": "Testing",
+    "tools": "Tools"
   }
 }

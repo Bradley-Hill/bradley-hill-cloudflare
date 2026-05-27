@@ -1,5 +1,5 @@
 .page {
-  max-height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -69,6 +69,10 @@
 
 .ctaButton:hover {
   background-color: #45a049;
+}
+
+.skillSection {
+  width: 100%;
 }
 
 /* Responsive */

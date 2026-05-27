@@ -63,5 +63,13 @@
     "email": "contact@bradley-hill.com",
     "github": "https://github.com/Bradley-Hill",
     "linkedin": "https://www.linkedin.com/in/bradley-michael-hill/"
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "inProgress": "En cours d'apprentissage",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "testing": "Tests",
+    "tools": "Outils"
   }
 }
