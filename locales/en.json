@@ -10,12 +10,14 @@
     "projects": "Projects",
     "about": "About",
     "contact": "Contact",
-    "forum": "Forum"
+    "forum": "Forum",
+    "cv": "Download my CV"
   },
   "home": {
     "welcome": "Welcome to my portfolio",
     "subtitle": "Full-stack developer",
     "cta": "View my work",
+    "cv": "Download my CV",
     "description": "I'm a full-stack developer passionate about building beautiful, functional web applications. Currently exploring React, Next.js, and modern web technologies while embracing continuous learning."
   },
   "projects": {

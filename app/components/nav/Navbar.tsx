@@ -8,7 +8,7 @@ import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { getText } = useI18n();
+  const { getText, language } = useI18n();
 
   return (
     <nav className={styles.navbar}>
@@ -65,6 +65,18 @@ export default function Navbar() {
           >
             {getText("nav.contact")}
           </Link>
+        </li>
+        <li className={styles.cvButton}>
+          <a
+            href={language === "fr" ? "/cv-fr.pdf" : "/cv-en.pdf"}
+            download={language === "fr" ? "Bradley-Hill-CV-FR.pdf" : "Bradley-Hill-CV-EN.pdf"}
+            className={styles.navLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+          >
+            {getText("nav.cv")}
+          </a>
         </li>
       </ul>
 

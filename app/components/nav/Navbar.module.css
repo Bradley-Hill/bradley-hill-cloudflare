@@ -50,6 +50,29 @@
   background-color: #444;
 }
 
+.cvButton {
+  display: flex;
+  align-items: center;
+}
+
+.cvButton a {
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  white-space: nowrap;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.cvButton a:hover {
+  background-color: white;
+  color: #333;
+}
+
 @keyframes slideDown {
   from {
     opacity: 0;
@@ -127,6 +150,26 @@
   .navLink:hover {
     background-color: #444;
   }
+
+  .cvButton {
+    width: 100%;
+  }
+
+  .cvButton a {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .cvButton a:hover {
+    background-color: #444;
+    color: white;
+  }
 }
 
 @media (max-width: 480px) {
@@ -140,6 +183,11 @@
   }
 
   .navLink {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .cvButton a {
     padding: 0.75rem;
     font-size: 0.95rem;
   }

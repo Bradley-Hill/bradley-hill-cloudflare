@@ -2,10 +2,10 @@
 import { useI18n } from "@/i18n/i18n";
 import Link from "next/link";
 import styles from "./page.module.css";
-import {SkillSection} from "./components/SkillSection";
+import { SkillSection } from "./components/SkillSection";
 
 export default function Home() {
-  const { getText } = useI18n();
+  const { getText, language } = useI18n();
 
   return (
     <div className={styles.page}>
@@ -16,9 +16,20 @@ export default function Home() {
           <p className={styles.heroDescription}>
             {getText("home.description")}
           </p>
-          <Link href="/projects" className={styles.ctaButton}>
-            {getText("home.cta")}
-          </Link>
+          <div className={styles.ctaGroup}>
+            <Link href="/projects" className={styles.ctaButton}>
+              {getText("home.cta")}
+            </Link>
+            <a
+              href={language === "fr" ? "/cv-fr.pdf" : "/cv-en.pdf"}
+              download={language === "fr" ? "Bradley-Hill-CV-FR.pdf" : "Bradley-Hill-CV-EN.pdf"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.ctaButtonOutlined}
+            >
+              {getText("home.cv")}
+            </a>
+          </div>
         </section>
         <section className={styles.skillSection}>
           <SkillSection />
