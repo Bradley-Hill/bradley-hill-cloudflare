@@ -24,11 +24,11 @@
     "title": "Projets",
     "rncp": {
       "title": "Assistant de Soin des Plantes",
-      "description": "Une application web pour aider les utilisateurs à s'occuper de leurs plantes, développée dans le cadre de mon diplôme RNCP"
+      "description": "Application full-stack de gestion de plantes et réseau social, développée en équipe dans le cadre de mon diplôme RNCP. \n Fonctionnalités : suivi des plantes, calendrier de soins, fil social (posts/commentaires/likes) et authentification Supabase.\nPrisma pour le schéma et les requêtes typées, Docker pour la conteneurisation, Playwright pour les tests E2E, GitHub Actions pour la CI/CD."
     },
     "shoppingCart": {
       "title": "Panier d'Achat",
-      "description": "Un panier d'achat pour le commerce électronique développé dans le cadre du projet The Odin Project"
+      "description": "SPA React/TypeScript construite avec Vite, sur le thème de Magic: The Gathering. Consomme l'API REST Scryfall pour parcourir et filtrer les cartes par couleur, type, rareté et prix.\nL'état du panier suit les quantités et le total courant ; les listes finalisées sont exportables au format Cardmarket.\nRouting multi-pages via React Router ; déployé via GitHub Pages."
     },
     "navigatorBattleship": {
       "title": "Jeu de Bataille Navale",
@@ -36,23 +36,23 @@
     },
     "knightsTravail": {
       "title": "Solution du Problème du Cavalier",
-      "description": "Ce projet est une solution au problème du Cavalier, implémentée en utilisant les principes de la programmation orientée objet (OOP) en TypeScript. Le problème du Cavalier consiste à trouver le chemin le plus court pour un cavalier sur un échiquier d'un point à un autre."
+      "description": "Solution TypeScript au problème classique du Cavalier : trouver le chemin le plus court pour un cavalier entre deux cases d'un échiquier 8x8.\nImplémente un BFS (parcours en largeur) sur un graphe de tous les mouvements valides du cavalier, renvoyant la séquence complète de positions du départ à l'arrivée.\nL'échiquier et le cavalier sont modélisés comme des interfaces séparées, illustrant la séparation des responsabilités en OOP."
     },
     "binarySearchTree": {
       "title": "Implémentation d'un Arbre de Recherche Binaire",
-      "description": "Ce projet est une simple implémentation d'un Arbre de Recherche Binaire (BST) en TypeScript. Il inclut une classe BinarySearchTree et une fonction createTreeNode pour créer des nœuds."
+      "description": "Implémentation TypeScript d'un arbre binaire de recherche auto-équilibré, construit de zéro. L'arbre s'équilibre automatiquement à la construction via un tri en O(n log n) ; supporte l'insertion, la recherche et un visualiseur prettyPrint.\nDémontre la maîtrise des structures de données fondamentales et la conception OOP en TypeScript."
     },
     "hashmapImplementation": {
       "title": "Implémentation d'une Table de Hachage",
-      "description": "Ce référentiel contient une simple implémentation d'une structure de données de table de hachage en TypeScript. La table de hachage utilise un chaînage séparé pour la résolution des collisions, chaque compartiment étant une liste chaînée."
+      "description": "Implémentation TypeScript d'une table de hachage construite de zéro, incluant la liste chaînée sous-jacente pour chaque bucket.\nUtilise le chaînage séparé pour la résolution des collisions et expose une API complète : set, get, has, remove, keys, values, entries et clear.\nDémontre la compréhension des structures de données internes et de la conception de fonctions de hachage."
     },
     "forumFrontend": {
       "title": "Frontend du Forum",
-      "description": "Frontend React et TypeScript pour un forum de discussion classique. Un retour nostalgique aux forums web du passé."
+      "description": "SPA React/TypeScript construite avec Vite, consommant l'API REST du Forum Backend. \n Authentification JWT via AuthContext, éditeur markdown pour la création de posts, navigation par catégories et fils de discussion, et styles SCSS. Profils utilisateurs avec upload d'avatars personnalisés. \n Tests Vitest couvrant le flux d'authentification et les composants principaux."
     },
     "forumBackend": {
       "title": "Backend du Forum",
-      "description": "API backend Express et PostgreSQL pour une application de forum de discussion classique."
+      "description": "API RESTful pour un forum de discussion, construite avec Express, Node.js et TypeScript. \n Implémente l'authentification JWT avec rotation des tokens d'accès/rafraîchissement, contrôle d'accès basé sur les rôles (membre/admin), protection CSRF et pagination par pages. \n Structure de réponse d'erreur cohérente ; suite de tests Vitest couvrant les routes principales."
     }
   },
   "about": {

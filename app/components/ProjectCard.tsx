@@ -19,7 +19,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
         src={project.image || "/placeholder.jpg"}
         alt={getText(project.titleKey)}
       />
-      <p className={styles.description}>{getText(project.descriptionKey)}</p>
+      <div className={styles.description}>
+        {getText(project.descriptionKey).split("\n").map((para, i) => (
+          <p key={i}>{para}</p>
+        ))}
+      </div>
       <div className={styles.technologies}>
         {project.technologies.map((tech) => (
           <span key={tech}>{tech}</span>

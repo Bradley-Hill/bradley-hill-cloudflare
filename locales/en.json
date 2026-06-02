@@ -24,11 +24,11 @@
     "title": "Projects",
     "rncp": {
       "title": "Plant Care Assistant",
-      "description": "A web app to help users take care of their plants, built as part of my RNCP diploma"
+      "description": "Full-stack plant management and social networking app, built collaboratively as my RNCP certification project. \n Features plant tracking with care scheduling, a social feed with posts/comments/likes, and Supabase authentication.\nPrisma handles schema and type-safe queries; Docker containerises the full stack; Playwright covers E2E testing; GitHub Actions runs CI/CD."
     },
     "shoppingCart": {
       "title": "Shopping Cart",
-      "description": "E-commerce shopping cart built as part of The Odin Project"
+      "description": "React/TypeScript SPA built with Vite, themed around Magic: The Gathering. Consumes the Scryfall REST API to browse and filter cards by colour, type, rarity, and price across different sets.\nCart state tracks quantities and running totals; completed lists can be exported in Cardmarket decklist format.\nMulti-page routing via React Router; deployed via GitHub Pages."
     },
     "navigatorBattleship": {
       "title": "Battleship Game",
@@ -36,23 +36,23 @@
     },
     "knightsTravail": {
       "title": "Knights Travail Solution",
-      "description": "This project is a solution to the Knights Travail problem, implemented using Object-Oriented Programming (OOP) practices in TypeScript. The Knights Travail problem involves finding the shortest path for a knight on a chessboard from one point to another."
+      "description": "TypeScript solution to the classic Knights Travail problem: find the shortest path for a chess knight between any two squares on an 8x8 board.\nImplements BFS (breadth-first search) over a graph of all valid knight moves, returning the full sequence of positions from start to destination.\nBoard and knight modelled as separate interfaces, demonstrating OOP separation of concerns."
     },
     "binarySearchTree": {
       "title": "Binary Search Tree Implementation",
-      "description": "This project is a simple implementation of a Binary Search Tree (BST) in TypeScript. It includes a BinarySearchTree class and a createTreeNode function for creating nodes."
+      "description": "TypeScript implementation of a self-balancing Binary Search Tree built from scratch. The tree auto-balances on construction using an O(n log n) sort; supports insertion, search, and a prettyPrint visualiser.\nDemonstrates core CS data structure concepts and OOP design in TypeScript."
     },
     "hashmapImplementation": {
       "title": "Hashmap Implementation",
-      "description": "This repository contains a simple implementation of a hash map data structure in TypeScript. The hash map uses separate chaining for collision resolution, with each bucket in the hash map being a linked list."
+      "description": "TypeScript implementation of a hash map built from scratch, including the underlying linked list for each bucket.\nUses separate chaining for collision resolution and exposes a full API: set, get, has, remove, keys, values, entries, and clear.\nDemonstrates understanding of data structure internals and hash function design."
     },
     "forumFrontend": {
       "title": "Forum Frontend",
-      "description": "React and TypeScript frontend for a classic discussion forum. A nostalgic return to web forums of the past."
+      "description": "React/TypeScript SPA built with Vite, consuming the forum REST API from Forum Backend. \n Features JWT authentication via AuthContext, a markdown editor for post creation, category and thread browsing, and SCSS styling. User profiles with custom avatar uploads. \n Vitest tests cover the auth flow and core components."
     },
     "forumBackend": {
       "title": "Forum Backend",
-      "description": "Express and PostgreSQL backend API for a classic discussion forum application."
+      "description": "RESTful API for a discussion forum, built with Express, Node.js, and TypeScript. \n Implements JWT authentication with access/refresh token rotation, role-based access control (member/admin), CSRF protection, and page-based pagination. \n Consistent error response structure throughout; Vitest test suite covering key routes."
     }
   },
   "about": {
